@@ -1,0 +1,459 @@
+html,body
+		{
+				/*height: 100%;*/
+				margin: 0px; 
+				padding: 0px;
+				scroll-behavior: smooth;
+				max-width: 100vw;	 	
+		}
+
+		ul
+		{	
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		.clah1
+		{
+			font-size: 250%;
+		}
+
+		.clah2
+		{
+			font-size: 200%;
+		}
+
+		#pg1txt1
+		{
+			font-family: 'Pacifico', cursive;
+			position:absolute;
+			top: 30vh;
+			opacity: 0.0;
+			font-size: 6.5vh;
+			left: 20vw;
+			color: rgb(255,255,255);
+		}
+
+		#pg1txt2
+		{
+			font-family: 'Pacifico', cursive;
+			position:absolute;
+			top: 40vh;
+			font-size: 6.5vh;
+			opacity: 0.0;
+			left: 65vw;
+			color: rgb(255,255,255);
+		}
+
+
+		#pg1txt3
+		{
+			font-family: 'Pacifico', cursive;
+			position: absolute;
+			bottom: 5vh;
+			font-size: 2.18vh;
+			left: 45vw;
+			text-align: center;
+			text-decoration: underline;
+
+		}
+
+		a{
+			text-decoration: none;
+			color: white;
+		}
+		
+		.Navbar{
+			
+			position: fixed;
+			z-index: 1;
+			width: 100%;
+		}
+		.NavEle
+		{	
+			position: relative;
+			float: left;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 0.9vw;
+			margin:0px;
+			display: block;
+			color:white;
+			text-align: center;	
+			padding:1em 1em;
+			text-decoration: none;
+		}
+
+		.NavEle1
+		{	
+			position: relative;
+			float: right;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 0.9vw;
+			margin:0px;
+			display: block;
+			color:white;
+			text-align: center;	
+			padding:1em 1em;
+			text-decoration: none;
+		}
+
+		.NavEle:hover
+		{
+			background-color: black;
+			cursor: pointer;
+		}
+		.NavEle1:hover
+		{
+			background-color: black;
+			cursor: pointer;
+		}
+
+
+		#arrowup{
+			cursor: pointer;
+		}
+
+		.bgimg0
+		{
+			display: flex;
+			margin: 0px;
+			height:100vh;
+			background-image: url('Backgrounds/effef0619137a4d50b38de97be34178f.png');
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin-bottom: 0px;
+			/*width: 100vw;*/
+		}
+
+		.bgimg1
+		{	
+			display: flex;
+			margin-top: 0px;
+			margin: 0px;
+			height:100vh;
+			background-image: url('Backgrounds/giphy-downsized.gif');
+			background-size: cover;
+			background-attachment: fixed;
+    		background-position: center;
+    		background-repeat: no-repeat;
+			opacity: 0.9;
+			/*width: 100vw;*/
+		
+
+		}
+	
+		.heading
+		{	
+			position: absolute;
+		    font-family: 'Dancing Script', cursive;
+			top:165vh;
+			left:25vw;
+			margin: 0px;
+			font-weight: lighter;
+			font-size: 2vw;
+			text-align: center;
+			color: black;
+		
+		}
+
+		.DisplayPhoto
+		{
+			position: absolute;
+			/*display: flex;*/
+			border:0.5vh solid white;
+			border-radius: 50%;
+			top:110vh;
+			left:35vw;
+			width:25vw;
+			height: 30vw;
+			z-index: 1000;
+			
+		}
+
+
+		.bgimg2
+		{
+			/*width: 100vw;*/
+			margin: 0px;
+			height: 100vh;
+			background-image:url(https://i.imgur.com/jk88jJ7.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			display: flex;
+			background-position: center;
+		}
+
+		.text2
+		{
+			/*width: 100vw;*/	
+			top: 20vh;
+			height: 55vh;
+			text-align: center;
+			background-color: rgb(0,0,0);
+			opacity: 0.6;
+			position: relative;	
+			color: white;
+			font-size: 1.6vh;
+			font-family: 'Amatic SC', cursive;
+		}
+
+		.InvicText
+		{
+			
+			height: 60vh;
+			opacity: 0.8;
+			color: white;
+		}
+
+		.text3
+		{	
+			top:20vh;
+			height: 55vh;
+			left: 17vw;
+			text-align: center;
+			/*background-color: rgb(0,0,0);
+			opacity: 0.6;*/
+			position: absolute;	
+			color: white;
+			font-size: 3.5vh;
+			font-family: 'Amatic SC', cursive;
+		}
+
+		.text4
+		{	
+			top:28vh;
+			height: 55vh;
+			left: 60vw;
+			text-align: center;
+			/*background-color: rgb(0,0,0);
+			opacity: 0.6;*/
+			position: absolute;	
+			color: white;
+			font-size: 3.5vh;
+			font-family: 'Amatic SC', cursive;
+		}
+
+		.clah10
+		{
+			top:9vh;
+			left: 45vw;
+			position: absolute;
+			color: rgb(255,255,255);
+			font-family: 'Amatic SC', cursive;
+			font-size: 4.4vw;
+			text-shadow: 0.2vw 0.2vw grey;
+		}
+
+		.bgimg4
+		{
+			/*width: 100vw;*/
+			margin: 0px;
+			display: flex;
+			background-image: url('Backgrounds/6x7bwcd59eyz.jpg');
+			background-attachment: fixed;
+			position: relative;
+			background-size: cover;
+			background-position: center;
+			height:100vh;
+		}
+
+		.bgimg3
+		{	
+			background-position: center;
+			margin: 0px;
+			display: flex;
+			background-image: url('https://images8.alphacoders.com/625/thumb-1920-625703.jpg');
+			background-attachment: fixed;
+			position: relative;
+			background-size: cover;
+			height:100vh;
+			/*width: 100vw;*/
+		}
+
+	.conbase
+	{
+		width: 50%;
+		position: absolute;
+		top: 40%;
+	}
+
+	.fbimg
+	{
+		position: relative;
+		left: 45%;
+		top: 40%;
+		width: 25%;
+
+	}
+
+	.fbimg:hover
+	 {
+  		animation: shake 0.82s /*cubic-bezier(.36,.07,.19,.97) both*/;
+  		transform: translate(0, 0);
+  		/*backface-visibility: hidden;
+  		perspective: 1000px;*/
+	}
+
+@keyframes shake {
+  10%, 90% {
+        transform: translate(-0.125vw,0);
+  }
+  
+  20%, 80% {
+  	transform: translate(0.25vw,0);
+    }
+
+  30%, 50%, 70% {
+  	transform: translate(-0.5vw,0);
+    }
+
+  40%, 60% {
+  	transform: translate(0.5vw,0);
+    }
+}
+
+	.igimg
+	{
+		position: relative;
+		left: 60%;
+		top: 40%;
+		width: 25%;
+
+	}
+
+	.igimg:hover
+	 {
+  		animation: shake 0.82s /*cubic-bezier(.36,.07,.19,.97) both*/;
+  		transform: translate(0, 0);
+  		/*backface-visibility: hidden;
+  		perspective: 1000px;*/
+	}
+
+	.githubimg
+	{
+		position: relative;
+		left: 75%;
+		top: 40%;
+		width: 25%;
+	}
+
+	.githubimg:hover
+	 {
+  		animation: shake 0.82s /*cubic-bezier(.36,.07,.19,.97) both*/;
+  		transform: translate(0, 0);
+  		/*backface-visibility: hidden;
+  		perspective: 1000px;*/
+	}
+
+	.logo
+	{
+		text-decoration: none;
+	}
+
+	.goup
+	{
+		z-index: 100;
+		width: 5%;
+		position: fixed;
+		bottom: 3%;
+		right: 3%;
+		margin: 0px;
+	}
+
+	.finalcontact
+	{
+		background-color: black;
+		bottom: 0%;
+		position: absolute;
+		width: 100%;
+	}
+	.fcb
+	{
+		position: relative;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 110%;
+		left: 0%;
+		border-width: 0px;
+		width: 100%;
+		margin:0px;
+		display: block;
+		padding:0.8%;
+		background-color: black;
+		color: white;
+		text-decoration: none;
+		border-radius:0%;
+		font-size: 2vh;
+	}
+
+	.fcb:hover
+	{
+		cursor: pointer;
+		font-size: 3vh;
+	}
+
+	@media only screen and (max-width:800px)
+{
+	.Navbar{
+		opacity: 0.7;
+	}
+
+	.NavEle{
+		float: none;
+		/*display: block;*/
+	}
+	.NavEle1{
+		float: none;
+		/*display: block;*/
+	}
+
+	.text3
+		{	
+			top:20vh;
+			height: 55vh;
+			left: 17vw;
+			text-align: center;
+			/*background-color: rgb(0,0,0);
+			opacity: 0.6;*/
+			position: absolute;	
+			color: white;
+			font-size: 3vh;
+			font-family: 'Amatic SC', cursive;
+			display: inline-block;
+		}
+
+		.text4
+		{	
+			display: inline-block;
+			top:57vh;
+			height: 55vh;
+			left: 17vw;
+			text-align: center;
+			/*background-color: rgb(0,0,0);
+			opacity: 0.6;*/
+			position: absolute;	
+			color: white;
+			font-size: 3vh;
+			font-family: 'Amatic SC', cursive;
+		}
+
+		.text2
+		{
+			width: 100vw;	
+			top: 20vh;
+			height: 55vh;
+			text-align: center;
+			background-color: rgb(0,0,0);
+			opacity: 0.6;
+			position: relative;	
+			color: white;
+			font-size: 1.0vh;
+			font-family: 'Amatic SC', cursive;
+		}
+
+} 

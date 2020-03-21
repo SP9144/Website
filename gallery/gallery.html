@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gallery</title>
+    <link rel="shortcut icon" href="clipart-face-labrador-6.jpg" type="image/x-icon">
+
+    <!--
+     Font Awesome Icons -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Average Sans' rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Bilbo Swash Caps' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Rock Salt' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Salsa' rel='stylesheet'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS - Includes Bootstrap -->
+    <link href="css/creative.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top" background = "./img/bg.jpeg">
+    <header>
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-10 align-self-end">
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <h1 style="color:white; font-size:3.5rem" class="text-uppercase text-black font-weight-bold">GALLERY </h1>
+                        <div class="hr" align="center"><hr /></div>
+                        <style>
+                            hr{
+                                background-color: rgb(255, 255, 255); 
+                                height: 1px; 
+                                border: 0;
+                                width: 50%;
+                            }
+                        </style>
+                    
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p style="color:white; font-size:1rem" class="text-white-75 font-weight-light mb-5"> Don't forget to click on the pictures and see more! </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <div align="center">
+    <section id="pictures">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-sm-6">
+                    <img id="f" class="img-fluid" src="img/friends/p1.jpeg" alt="" height=350vw onclick="changepic()" onmouseover="cur"         width=350vw>
+
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="img/center.jpeg">
+                        <img class="img-fluid" src="img/center.jpeg" alt="" height=350vw width=350vw>
+
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                                    <img id="change" class="img-fluid" src="img/family/p10.jpeg" alt="" height=350vw width=350vw onclick="changepic1()"
+                        onmouseover="cur" />
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+    <script>
+        var image = document.getElementById("change");
+        function changepic1() {
+            //alert(image.getAttribute('src'));
+            if (image.getAttribute('src') == "img/family/p10.jpeg") {
+                image.src = "img/family/p11.jpeg";
+            }
+            else if (image.getAttribute('src') == "img/family/p11.jpeg") {
+                image.src = "img/family/p12.jpeg";
+            }
+            else if (image.getAttribute('src') == "img/family/p12.jpeg") {
+                image.src = "img/family/p14.jpeg";
+
+            }
+            else if (image.getAttribute('src') == "img/family/p14.jpeg") {
+                image.src = "img/family/p15.jpeg";
+
+            }
+            else if (image.getAttribute('src') == "img/family/p15.jpeg") {
+                image.src = "img/family/p10.jpeg";
+            }
+        }
+    </script>
+
+    <script>
+        var imag = document.getElementById("f");
+        function changepic() {
+            //alert(imag.getAttribute('src'));
+            if (imag.getAttribute('src') == "img/friends/p1.jpeg") {
+                //alert("yes");
+                imag.src = "img/friends/p2.jpeg";
+            }
+            else if (imag.getAttribute('src') == "img/friends/p2.jpeg") {
+            imag.src = "img/friends/p3.jpeg";
+            }
+            else if (imag.getAttribute('src') == "img/friends/p3.jpeg") {
+            imag.src = "img/friends/p4.jpeg";
+            }
+            else if (imag.getAttribute('src') == "img/friends/p4.jpeg") {
+            imag.src = "img/friends/p5.jpeg";
+
+            }
+            else if (imag.getAttribute('src') == "img/friends/p5.jpeg") {
+            imag.src = "img/friends/p1.jpeg";
+            }
+        }
+    </script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.js"></script>
+    <br>
+    <br>
+    <br>
+    <div class="hr" align="center"><hr /></div>
+    <style>
+        hr{
+            background-color: rgb(255, 255, 255); 
+            height: 1px; 
+            border: 0;
+            width: 75%;
+    </style>
+<br>
+<br>
+<br>
+<div align="center">
+<a href="../index.html">
+    <img src="data:image/png;base64,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" alt="fbicon" style:height="56" width="54"/>
+</a>
+</div> 
+</body>
+
+</html>
